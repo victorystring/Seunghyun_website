@@ -1,11 +1,19 @@
- AOS.init({
- 	duration: 800,
- 	easing: 'slide'
- });
+var prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+if (!prefersReducedMotion) {
+  AOS.init({
+    duration: 800,
+    easing: 'slide'
+  });
+}
 
 (function($) {
 
 	"use strict";
+
+	if (prefersReducedMotion) {
+		$.fx.off = true;
+	}
 
 	$(window).stellar({
     responsive: true,
@@ -259,15 +267,40 @@
     }
   });
 
-  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+  // YouTube rejects embedded playback without an HTTP Referer (error 153).
+  // When this file is opened directly, keep the normal link so YouTube opens
+  // in a new tab. HTTP/HTTPS pages continue to use the popup player.
+  if (window.location.protocol !== 'file:') {
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
     disableOn: 700,
     type: 'iframe',
     mainClass: 'mfp-fade',
     removalDelay: 160,
     preloader: false,
 
-    fixedContentPos: false
-  });
+    iframe: {
+      markup: '<div class="mfp-iframe-scaler">' +
+              '<div class="mfp-close"></div>' +
+              '<iframe class="mfp-iframe" frameborder="0" ' +
+              'allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>' +
+              '</div>',
+      patterns: {
+        youtube: {
+          index: 'youtube.com/',
+          id: 'v=',
+          src: 'https://www.youtube.com/embed/%id%?rel=0'
+        },
+        youtubeShort: {
+          index: 'youtu.be/',
+          id: '/',
+          src: 'https://www.youtube.com/embed/%id%?rel=0'
+        }
+      }
+    },
+
+      fixedContentPos: false
+    });
+  }
 
 
   var goHere = function() {
@@ -336,9 +369,19 @@ window.onload = function() {
     var toRotate = elements[i].getAttribute('data-rotate');
     var period = elements[i].getAttribute('data-period');
     if (toRotate) {
-      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+      var rotationItems = JSON.parse(toRotate);
+      if (prefersReducedMotion) {
+        elements[i].textContent = rotationItems[0];
+      } else {
+        new TxtRotate(elements[i], rotationItems, period);
+      }
     }
   }
+
+  if (prefersReducedMotion) {
+    return;
+  }
+
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";

@@ -1100,6 +1100,38 @@ h1, h2, h3, h4, h5,
 	}
 }
 
+.simulation-video-card{
+	color: inherit;
+	&:focus{
+		outline: 3px solid $primary;
+		outline-offset: -3px;
+		.project{
+			.overlay{
+				opacity: .9;
+			}
+			.text{
+				opacity: 1;
+			}
+		}
+	}
+	.project .text h3{
+		color: $white;
+	}
+}
+
+.simulation-coming-soon{
+	background: $black;
+	.text{
+		opacity: 1;
+		h3{
+			color: $white;
+		}
+		span{
+			color: rgba(255,255,255,.8);
+		}
+	}
+}
+
 
 // USEFUL CODE
 .aside-stretch{
@@ -1345,7 +1377,7 @@ textarea.form-control {
 		color: rgba(0,0,0,1);
 		letter-spacing: 3px;
 	}
-	h1.big{
+	.big{
 		position: absolute;
 		top: 0px;
 		left: 0;
@@ -1376,6 +1408,13 @@ textarea.form-control {
 		}
 		p{
 			color: rgba(255,255,255,.9);
+		}
+	}
+	h1.gallery-title{
+		font-size: 50px;
+		font-weight: 700;
+		@include media-breakpoint-down(sm){
+			font-size: 38px;
 		}
 	}
 }
@@ -1952,4 +1991,29 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: .01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: .01ms !important;
+		scroll-behavior: auto !important;
+	}
+
+	.ftco-animate {
+		opacity: 1 !important;
+		visibility: visible !important;
+		animation: none !important;
+	}
+
+	.txt-rotate > .wrap {
+		border-right: 0 !important;
+	}
 }

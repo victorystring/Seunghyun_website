@@ -9006,6 +9006,27 @@ h1, h2, h3, h4, h5,
   .project:hover .text, .project:focus .text {
     opacity: 1; }
 
+.simulation-video-card {
+  color: inherit; }
+  .simulation-video-card:focus {
+    outline: 3px solid #3e64ff;
+    outline-offset: -3px; }
+    .simulation-video-card:focus .project .overlay {
+      opacity: .9; }
+    .simulation-video-card:focus .project .text {
+      opacity: 1; }
+  .simulation-video-card .project .text h3 {
+    color: #fff; }
+
+.simulation-coming-soon {
+  background: #000000; }
+  .simulation-coming-soon .text {
+    opacity: 1; }
+    .simulation-coming-soon .text h3 {
+      color: #fff; }
+    .simulation-coming-soon .text span {
+      color: rgba(255, 255, 255, 0.8); }
+
 .aside-stretch {
   background: #718dff; }
   .aside-stretch:after {
@@ -9186,7 +9207,7 @@ textarea.form-control {
     text-transform: uppercase;
     color: black;
     letter-spacing: 3px; }
-  .heading-section h1.big {
+  .heading-section .big {
     position: absolute;
     top: 0px;
     left: 0;
@@ -9194,7 +9215,7 @@ textarea.form-control {
     color: rgba(255, 255, 255, 0.1);
     z-index: -1;
     font-weight: 900; }
-    .heading-section h1.big.big-2 {
+    .heading-section .big.big-2 {
       right: 0; }
   .heading-section h2 {
     font-size: 50px;
@@ -9203,6 +9224,12 @@ textarea.form-control {
       font-weight: 400; }
     @media (max-width: 767.98px) {
       .heading-section h2 {
+        font-size: 38px; } }
+  .heading-section h1.gallery-title {
+    font-size: 50px;
+    font-weight: 700; }
+    @media (max-width: 767.98px) {
+      .heading-section h1.gallery-title {
         font-size: 38px; } }
   .heading-section.heading-section-white .subheading {
     color: rgba(255, 255, 255, 0.9) !important; }
@@ -9672,3 +9699,25 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+    -webkit-transition-duration: .01ms !important;
+    -o-transition-duration: .01ms !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important; }
+  .ftco-animate {
+    opacity: 1 !important;
+    visibility: visible !important;
+    -webkit-animation: none !important;
+    animation: none !important; }
+  .txt-rotate > .wrap {
+    border-right: 0 !important; } }
