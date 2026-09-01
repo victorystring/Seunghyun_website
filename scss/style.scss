@@ -1523,6 +1523,12 @@ textarea.form-control {
 }
 .blog-entry{
 	position: relative;
+	.block-20 {
+		height: auto;
+		aspect-ratio: 16 / 9;
+		background-size: contain;
+		background-color: #f8f9fa;
+	}
 	@include media-breakpoint-up(md){
 		margin-bottom: 30px;
 	}

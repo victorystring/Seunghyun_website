@@ -9321,6 +9321,11 @@ textarea.form-control {
 
 .blog-entry {
   position: relative; }
+  .blog-entry .block-20 {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background-size: contain;
+    background-color: #f8f9fa; }
   @media (min-width: 768px) {
     .blog-entry {
       margin-bottom: 30px; } }
