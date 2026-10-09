@@ -2,6 +2,8 @@
 
 이 사이트의 글은 `posts/<slug>/index.md`가 원본입니다. `posts/posts.json`에서 카드 제목, 소개, 분류, 표지를 관리합니다. `main`에 push하면 기존 GitHub Pages workflow가 Markdown과 수식을 정적 HTML로 변환해 배포합니다.
 
+GitHub 저장소의 **Settings → Pages → Build and deployment → Source**는 **GitHub Actions**로 설정되어 있습니다. `.github/workflows/static.yml`이 생성한 `_site/`가 배포 대상입니다. 저장소를 새로 만들거나 Pages 설정을 복원할 때도 이 Source를 사용합니다.
+
 ## 기존 글 수정
 
 1. `posts/<slug>/index.md`를 수정합니다. 첫 줄의 제목은 `posts/posts.json`의 해당 `title`과 일치해야 합니다.
