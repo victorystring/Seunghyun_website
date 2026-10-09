@@ -1,5 +1,13 @@
 [
   {
+    "slug": "pressure-guided-cross-modal-reconstruction-pcmr-of-gas-solid-flow-fields-in-fluidized-beds",
+    "title": "Pressure-Guided Cross-Modal Reconstruction (PCMR) of Gas-Solid Flow Fields in Fluidized Beds",
+    "category": "Research · Scientific machine learning",
+    "description": "How pressure-derived features help reconstruct particle distributions and phase velocities, with millisecond inference and a path toward fluidized-bed digital twins.",
+    "cover": "images/blog/pcmr.png",
+    "coverAlt": "Conceptual mapping from pressure contours through a learning model to a bubbling fluidized-bed field"
+  },
+  {
     "slug": "what-is-multiphysics-modeling-and-why-does-it-matter",
     "title": "What Is Multiphysics Modeling and Why Does It Matter?",
     "category": "Foundations",
