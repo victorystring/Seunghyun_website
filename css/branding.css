@@ -1,0 +1,74 @@
+/* Shared identity across the research portfolio. */
+.ftco-navbar-light {
+  --brand-ink: #17263b;
+  --brand-detail: #52647b;
+}
+
+.ftco-navbar-light .navbar-brand.brand-wordmark,
+.ftco-navbar-light .navbar-brand.brand-wordmark:hover,
+.ftco-navbar-light .navbar-brand.brand-wordmark:focus {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding-top: .65rem;
+  padding-bottom: .65rem;
+  color: var(--brand-ink) !important;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -.02em;
+  text-decoration: none;
+}
+
+.ftco-navbar-light .navbar-brand.brand-wordmark::after {
+  content: none;
+}
+
+.ftco-navbar-light .brand-wordmark .brand-name {
+  color: inherit;
+}
+
+.ftco-navbar-light .brand-wordmark .brand-detail {
+  color: var(--brand-detail);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.ftco-navbar-light .brand-wordmark:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 5px;
+  border-radius: 2px;
+}
+
+.has-video-hero .ftco-navbar-light:not(.scrolled) {
+  --brand-ink: #fff;
+  --brand-detail: #b9c6d8;
+}
+
+@media (max-width: 991.98px) {
+  .ftco-navbar-light:not(.scrolled) {
+    --brand-ink: #fff;
+    --brand-detail: #b9c6d8;
+  }
+}
+
+@media (max-width: 360px) {
+  .ftco-navbar-light .navbar-brand.brand-wordmark {
+    gap: 3px;
+    font-size: 21px;
+  }
+
+  .ftco-navbar-light .brand-wordmark .brand-detail {
+    font-size: 9px;
+    letter-spacing: .06em;
+  }
+
+  .ftco-navbar-light .navbar-toggler {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+}
