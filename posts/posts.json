@@ -1,5 +1,13 @@
 [
   {
+    "slug": "developing-an-esf-surrogate-model-using-rbf-rom",
+    "title": "Developing an ESF Surrogate Model Using RBF-ROM",
+    "category": "Research · Reduced-order modeling",
+    "description": "How POD compression, RBF interpolation, and geometry normalization turn expensive plasma-arc simulations into fast predictions of ESF flow fields.",
+    "cover": "images/blog/scientific-machine-learning.png",
+    "coverAlt": "Conceptual connection between a computational mesh and a learning network"
+  },
+  {
     "slug": "from-laminar-to-turbulent-arcs-multiphysics-modeling-of-arc-instability-and-electrical-resistance-in-electric-smelting-furnaces",
     "title": "From Laminar to Turbulent Arcs: Multiphysics Modeling of Arc Instability and Electrical Resistance in Electric Smelting Furnaces",
     "category": "Research · Plasma & MHD",
