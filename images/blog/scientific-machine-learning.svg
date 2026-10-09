@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Conceptual physics and learning network">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#172a46"/><stop offset="1" stop-color="#303d67"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#a4cce0" opacity=".13"/></pattern></defs>
+<rect width="800" height="450" fill="url(#bg)"/><rect width="800" height="450" fill="url(#grid)"/>
+<g stroke="#91afdc" stroke-width="2" fill="#192f4c"><path d="M122 145 L272 109 L334 268 L179 325 Z"/><path d="M122 145 L179 325 M172 133 L230 306 M222 121 L282 287 M122 145 L272 109 M141 205 L294 162 M160 265 L314 215 M179 325 L334 268"/></g>
+<g fill="none" stroke="#8ca5cd" stroke-width="1.5" opacity=".65"><path d="M461 151 L548 119 L634 166 M461 151 L548 225 L634 166 M461 151 L548 330 L634 284 M461 299 L548 119 L634 284 M461 299 L548 225 L634 284 M461 299 L548 330"/></g>
+<g fill="#a4c9ed"><circle cx="461" cy="151" r="11"/><circle cx="461" cy="299" r="11"/><circle cx="548" cy="119" r="11"/><circle cx="548" cy="225" r="11"/><circle cx="548" cy="330" r="11"/></g><g fill="#a8d9c8"><circle cx="634" cy="166" r="13"/><circle cx="634" cy="284" r="13"/></g>
+<path d="M359 211 H418 M411 205 L418 211 L411 217 M418 239 H359 M366 233 L359 239 L366 245" stroke="#d2ad6a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<g fill="#d2ad6a"><circle cx="172" cy="133" r="4"/><circle cx="141" cy="205" r="4"/><circle cx="282" cy="287" r="4"/></g>
+</svg>

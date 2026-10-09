@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="480" viewBox="0 0 1800 480" role="img" aria-labelledby="title desc">
+  <title id="title">A common scalar transport balance</title>
+  <desc id="desc">The time derivative of density times a scalar, plus advective transport, equals gradient-diffusion transport plus a source term.</desc>
+  <rect width="1800" height="480" fill="#f7f9fc"/>
+  <text x="900" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#17263b">A common scalar transport balance</text>
+  <text x="900" y="183" text-anchor="middle" font-family="Cambria Math, Cambria, DejaVu Serif, serif" font-size="62" fill="#17263b">∂(ρφ)/∂t + ∇·(ρuφ) = ∇·(Γ∇φ) + S<tspan baseline-shift="sub" font-size="40">φ</tspan></text>
+  <text x="900" y="267" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#2b5fd0">Accumulation + advection = diffusion + sources</text>
+  <text x="900" y="332" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#53667e">ρ: density   ·   u: velocity   ·   φ: transported scalar   ·   Γ: diffusion coefficient in this formulation</text>
+  <text x="900" y="379" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#53667e">S<tspan baseline-shift="sub" font-size="16">φ</tspan>: source term   ·   ∇: spatial differential operator</text>
+  <text x="900" y="443" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#69798d">Assumes a gradient-diffusion flux; constitutive choices and source terms are problem-specific.</text>
+</svg>

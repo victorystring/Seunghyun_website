@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Conceptual fluidized bed">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#112d40"/><stop offset="1" stop-color="#245263"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#a4cce0" opacity=".13"/></pattern></defs>
+<rect width="800" height="450" fill="url(#bg)"/><rect width="800" height="450" fill="url(#grid)"/>
+<path d="M302 62 V351 Q302 367 318 367 H482 Q498 367 498 351 V62" fill="#79a6bb" fill-opacity=".09" stroke="#a6cada" stroke-width="3"/><path d="M292 350 H508" stroke="#a6cada" stroke-width="3" stroke-dasharray="4 4"/>
+<g fill="#d5ac67"><circle cx="326" cy="323" r="10"/><circle cx="355" cy="330" r="10"/><circle cx="386" cy="320" r="12"/><circle cx="419" cy="332" r="10"/><circle cx="453" cy="320" r="12"/><circle cx="479" cy="333" r="9"/><circle cx="340" cy="293" r="12"/><circle cx="371" cy="286" r="9"/><circle cx="410" cy="295" r="11"/><circle cx="441" cy="280" r="9"/><circle cx="479" cy="293" r="9"/><circle cx="323" cy="259" r="8"/><circle cx="402" cy="258" r="9"/><circle cx="467" cy="247" r="8"/></g>
+<g fill="#9dd9e0"><circle cx="352" cy="246" r="4"/><circle cx="447" cy="229" r="4"/><circle cx="386" cy="197" r="5"/><circle cx="472" cy="160" r="4"/><circle cx="325" cy="181" r="4"/><circle cx="429" cy="122" r="5"/><circle cx="361" cy="107" r="4"/></g>
+<g fill="none" stroke="#8ccad4" stroke-width="3" stroke-linecap="round"><path d="M335 405 V382 M330 390 L335 382 L340 390 M400 405 V382 M395 390 L400 382 L405 390 M465 405 V382 M460 390 L465 382 L470 390"/><path d="M358 218 Q344 181 362 153 M354 157 L363 152 L366 161 M440 211 Q458 179 440 148 M437 157 L440 148 L448 153"/></g>
+<g fill="none" stroke="#7598ac" stroke-width="2" opacity=".35"><path d="M235 107 V335 M555 107 V335 M220 149 H250 M540 149 H570 M220 278 H250 M540 278 H570"/></g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Conceptual multiphysics connections">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10283e"/><stop offset="1" stop-color="#1c425c"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#a4cce0" opacity=".13"/></pattern></defs>
+<rect width="800" height="450" fill="url(#bg)"/><rect width="800" height="450" fill="url(#grid)"/>
+<g fill="none" stroke="#749cb9" stroke-width="2" opacity=".3"><circle cx="400" cy="234" r="168"/><circle cx="400" cy="234" r="143"/></g>
+<g fill="none" stroke="#9dbbd3" stroke-width="3"><path d="M370 150 Q285 198 305 273"/><path d="M333 303 Q398 355 473 305"/><path d="M502 266 Q510 192 430 150"/></g>
+<g fill="#24455e" stroke="#8fc1dd" stroke-width="2"><circle cx="400" cy="126" r="62"/><circle cx="296" cy="300" r="62"/><circle cx="505" cy="300" r="62"/></g>
+<g fill="none" stroke="#a6d9ef" stroke-width="4" stroke-linecap="round"><path d="M366 114 Q386 98 407 114 T435 114 M366 132 Q386 116 407 132 T435 132 M366 150 Q386 134 407 150 T435 150"/><path d="M277 319 V286 M295 319 V273 M313 319 V295"/></g>
+<g fill="#97d5cd"><circle cx="485" cy="281" r="8"/><circle cx="524" cy="281" r="8"/><circle cx="505" cy="320" r="8"/></g><g stroke="#97d5cd" stroke-width="3"><path d="M493 282 H516 M489 288 L501 312 M520 288 L509 312"/></g>
+<circle cx="400" cy="232" r="14" fill="#d1a75f"/><path d="M400 169 V211 M339 277 L384 242 M462 277 L416 242" stroke="#d1a75f" stroke-width="2" stroke-dasharray="4 5"/>
+</svg>

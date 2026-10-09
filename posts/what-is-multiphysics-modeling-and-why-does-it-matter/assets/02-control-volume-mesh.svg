@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="960" viewBox="0 0 1000 960" role="img" aria-labelledby="title desc">
+  <title id="title">Finite volume mesh</title>
+  <desc id="desc">A three by three mesh with values stored at cell centers and fluxes passing through shared cell faces. The center cell is highlighted as one control volume.</desc>
+  <defs>
+    <marker id="flux" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2b5fd0"/></marker>
+    <marker id="dimension" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#53667e" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="1000" height="960" fill="#fff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="500" y="49" text-anchor="middle" font-size="30" font-weight="700" fill="#17263b">Finite volume mesh</text>
+    <rect x="365" y="390" width="220" height="220" fill="#eaf7f6"/>
+    <path d="M145 170H805V830H145Z M365 170V830 M585 170V830 M145 390H805 M145 610H805" fill="none" stroke="#17263b" stroke-width="3"/>
+    <g stroke="#2b5fd0" stroke-width="2.5" marker-end="url(#flux)">
+      <path d="M103 280H185"/><path d="M323 280H405"/><path d="M543 280H625"/><path d="M763 280H845"/>
+      <path d="M103 500H185"/><path d="M323 500H405"/><path d="M543 500H625"/><path d="M763 500H845"/>
+      <path d="M103 720H185"/><path d="M323 720H405"/><path d="M543 720H625"/><path d="M763 720H845"/>
+      <path d="M255 212V130"/><path d="M475 212V130"/><path d="M695 212V130"/>
+      <path d="M255 432V350"/><path d="M475 432V350"/><path d="M695 432V350"/>
+      <path d="M255 652V570"/><path d="M475 652V570"/><path d="M695 652V570"/>
+      <path d="M255 872V790"/><path d="M475 872V790"/><path d="M695 872V790"/>
+    </g>
+    <g fill="#17263b">
+      <circle cx="255" cy="280" r="6"/><circle cx="475" cy="280" r="6"/><circle cx="695" cy="280" r="6"/>
+      <circle cx="255" cy="500" r="6"/><circle cx="475" cy="500" r="6"/><circle cx="695" cy="500" r="6"/>
+      <circle cx="255" cy="720" r="6"/><circle cx="475" cy="720" r="6"/><circle cx="695" cy="720" r="6"/>
+    </g>
+    <text x="475" y="542" text-anchor="middle" font-size="23" fill="#0e7e83">Control volume</text>
+    <path d="M371 103H579" fill="none" stroke="#53667e" stroke-width="2" marker-start="url(#dimension)" marker-end="url(#dimension)"/>
+    <text x="475" y="84" text-anchor="middle" font-size="27" fill="#53667e">Δx</text>
+    <path d="M875 396V604" fill="none" stroke="#53667e" stroke-width="2" marker-start="url(#dimension)" marker-end="url(#dimension)"/>
+    <text x="901" y="507" font-size="27" fill="#53667e">Δy</text>
+    <text x="500" y="927" text-anchor="middle" font-size="22" fill="#53667e">Cell-centered values · Fluxes through shared faces</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "what-is-multiphysics-modeling-and-why-does-it-matter",
+    "title": "What Is Multiphysics Modeling and Why Does It Matter?",
+    "category": "Foundations",
+    "description": "How conservation laws, transport processes, and phase interactions help us understand complex engineering systems.",
+    "cover": "images/blog/multiphysics.png",
+    "coverAlt": "Conceptual connections between three physical models"
+  },
+  {
+    "slug": "understanding-fluidized-beds-through-my-research",
+    "title": "Understanding Fluidized Beds Through My Research",
+    "category": "Research",
+    "description": "What a dual-size CFD model reveals about particle segregation, pressure fluctuations, and fine-particle entrainment.",
+    "cover": "images/blog/fluidized-bed.png",
+    "coverAlt": "Conceptual illustration of particles and gas flow in a fluidized bed"
+  },
+  {
+    "slug": "can-ai-learn-physics-introduction-to-scientific-machine-learning",
+    "title": "Can AI Learn Physics? Introduction to Scientific Machine Learning",
+    "category": "Scientific machine learning",
+    "description": "An introduction to learning from data and physical equations, with PINNs, neural operators, and examples from fluid mechanics.",
+    "cover": "images/blog/scientific-machine-learning.png",
+    "coverAlt": "Conceptual connection between a computational mesh and a learning network"
+  },
+  {
+    "slug": "magnetohydrodynamics-for-arc-plasma-modeling",
+    "title": "Magnetohydrodynamics for Arc Plasma Modeling",
+    "category": "Plasma & MHD",
+    "description": "How electrical current, magnetic forces, heat transfer, and fluid motion interact in a thermal plasma arc.",
+    "cover": "images/blog/arc-plasma.png",
+    "coverAlt": "Conceptual plasma arc with surrounding magnetic field lines"
+  }
+]

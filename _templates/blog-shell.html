@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#17263b">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="{{CANONICAL}}">
+  <link rel="icon" href="{{ROOT}}images/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="{{OG_TYPE}}">
+  <meta property="og:site_name" content="Seunghyun Sim">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{CANONICAL}}">
+  <meta property="og:image" content="{{OG_IMAGE}}">
+  <meta property="og:image:alt" content="{{IMAGE_ALT}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{TITLE}}">
+  <meta name="twitter:description" content="{{DESCRIPTION}}">
+  <meta name="twitter:image" content="{{OG_IMAGE}}">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ROOT}}css/style.css?v=20260901">
+  <link rel="stylesheet" href="{{ROOT}}css/branding.css?v=20261009-1">
+  <link rel="stylesheet" href="{{ROOT}}css/pages.css?v=20261009-1">
+  <link rel="stylesheet" href="{{ROOT}}css/blog.css?v=20261009-1">
+  {{MATH_CSS}}
+  {{STRUCTURED_DATA}}
+  <script src="{{ROOT}}js/blog-reader.js?v=20261009-1" defer></script>
+</head>
+<body class="content-page journal-page {{PAGE_CLASS}}">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand brand-wordmark" href="{{ROOT}}index.html" aria-label="Seunghyun Sim — Home">
+        <span class="brand-name">Seunghyun Sim</span>
+        <span class="brand-detail" aria-hidden="true">CFD · Multiphysics · SciML</span>
+      </a>
+      <button class="navbar-toggler" type="button" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">Menu <span aria-hidden="true">☰</span></button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav nav ml-auto">
+          <li class="nav-item"><a href="{{ROOT}}index.html" class="nav-link"><span>Home</span></a></li>
+          <li class="nav-item"><a href="{{ROOT}}about.html" class="nav-link"><span>About</span></a></li>
+          <li class="nav-item"><a href="{{ROOT}}publications.html" class="nav-link"><span>Publications</span></a></li>
+          <li class="nav-item"><a href="{{ROOT}}projects.html" class="nav-link"><span>Projects</span></a></li>
+          <li class="nav-item"><a href="{{ROOT}}gallery.html" class="nav-link"><span>Simulation Gallery</span></a></li>
+          <li class="nav-item active"><a href="{{ROOT}}blog.html" class="nav-link active"{{BLOG_CURRENT}}><span>My Blog</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main id="main-content" tabindex="-1">{{CONTENT}}</main>
+  <footer class="journal-footer">
+    <div class="journal-container">
+      <p>Seunghyun Sim <span>Research notes on modeling physical systems.</span></p>
+      <!-- Retained attribution for the portfolio's Colorlib template (CC BY 3.0). -->
+      <p class="template-credit">Portfolio template by <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>.</p>
+    </div>
+  </footer>
+  {{IMAGE_DIALOG}}
+</body>
+</html>

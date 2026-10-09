@@ -1,0 +1,14 @@
+{
+  "name": "seunghyun-research-website",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "build": "node scripts/build-site.mjs"
+  },
+  "devDependencies": {
+    "katex": "0.19.0",
+    "marked": "18.1.0"
+  }
+}
